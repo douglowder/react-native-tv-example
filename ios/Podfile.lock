@@ -268,8 +268,6 @@ PODS:
     - react-native-config/App (= 1.5.0)
   - react-native-config/App (1.5.0):
     - React-Core
-  - react-native-flipper (0.125.0):
-    - React-Core
   - react-native-safe-area-context (4.5.1):
     - RCT-Folly
     - RCTRequired
@@ -410,7 +408,6 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-config (from `../node_modules/react-native-config`)
-  - react-native-flipper (from `../node_modules/react-native-flipper`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-video (from `../node_modules/react-native-video`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -489,8 +486,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-config:
     :path: "../node_modules/react-native-config"
-  react-native-flipper:
-    :path: "../node_modules/react-native-flipper"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-video:
@@ -562,7 +557,6 @@ SPEC CHECKSUMS:
   React-jsinspector: ec50c66abd5580a08cd8c83bc0b570de3dee90ad
   React-logger: 4d444d0dfbe78901a770e9d942cbcaa0d9cd1fbf
   react-native-config: 5330c8258265c1e5fdb8c009d2cabd6badd96727
-  react-native-flipper: 3d9e214b412b3ce81e0d73bdcdc8097c0b0e8578
   react-native-safe-area-context: f5549f36508b1b7497434baa0cd97d7e470920d4
   react-native-video: c26780b224543c62d5e1b2a7244a5cd1b50e8253
   React-perflogger: a411f62cb204bed2e70aed84a9b08c45fe63fc40
@@ -588,6 +582,6 @@ SPEC CHECKSUMS:
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   Yoga: 1f76fc24e06883e0b475767d9aa6eab827a44441
 
-PODFILE CHECKSUM: e6a0f809cfd13cde6c0d32025185efdf08f35c40
+PODFILE CHECKSUM: 1c37f6c5d5fc62fc95a862eaed146b3021ba40ee
 
 COCOAPODS: 1.12.1

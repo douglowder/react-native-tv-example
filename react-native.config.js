@@ -8,5 +8,13 @@ module.exports = {
         macos: null,
       },
     },
+    // No Flipper
+    'react-native-flipper': {
+      platforms: {
+        android: null,
+        ios: null,
+        macos: null,
+      },
+    },
   },
 };
