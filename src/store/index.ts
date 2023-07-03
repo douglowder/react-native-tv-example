@@ -13,9 +13,9 @@ const sagaMiddleware = createSagaMiddleware();
 
 const middleware = [sagaMiddleware];
 
-if (__DEV__) {
-  middleware.push(require('redux-flipper').default());
-}
+// if (__DEV__) {
+//   middleware.push(require('redux-flipper').default());
+// }
 
 const store = configureStore({
   reducer,
