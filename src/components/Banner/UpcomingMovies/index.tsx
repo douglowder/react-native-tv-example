@@ -1,5 +1,6 @@
 import { NavigationProp, useNavigation } from '@react-navigation/native';
 import Shimmer from 'components/Shimmer';
+import Touchable from 'components/Touchable';
 import { format } from 'date-fns';
 import { withTVSpecific } from 'hocs';
 import ms from 'ms';
@@ -23,6 +24,7 @@ const UpcomingMovies = () => {
   const { isLoading, isEmpty, hasError } = useUpcomingMovies();
   const { movieId, nextMovieId } = useRandomUpcomingMovieId(REFRESH_INTERVAL);
   const movie = useMovie(movieId);
+  const moreInfoRef = React.useRef<typeof Touchable>();
 
   if (isEmpty) {
     // render empty state?
@@ -35,7 +37,9 @@ const UpcomingMovies = () => {
   }
 
   return (
-    <TVFocusGuideView style={styles.container}>
+    <TVFocusGuideView
+      style={styles.container}
+      destinations={moreInfoRef.current ? [moreInfoRef.current] : []}>
       <View style={styles.col}>
         <View style={styles.box}>
           {isLoading && !movie ? (
@@ -97,6 +101,7 @@ const UpcomingMovies = () => {
             )}
             <View style={styles.more}>
               <MoreInfo
+                ref={moreInfoRef}
                 onPress={() => {
                   if (movie) {
                     navigate(Route.Movie, { id: movie.id, title: movie.title });
