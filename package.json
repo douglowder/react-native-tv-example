@@ -11,6 +11,7 @@
     "ios:release": "react-native run-ios --simulator \"iPhone 14\" --configuration Release",
     "ios:logs": "react-native log-ios",
     "tvos": "react-native run-ios --scheme Example-tvOS --simulator \"Apple TV\"",
+    "tvos:expo": "npx expo run:ios --scheme Example-tvOS --device \"Apple TV\"",
     "tvos:release": "react-native run-ios --scheme Example-tvOS --simulator \"Apple TV\" --configuration Release",
     "start": "react-native start",
     "postinstall": "patch-package",
