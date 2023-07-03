@@ -1,6 +1,6 @@
 PODS:
   - boost (1.76.0)
-  - BVLinearGradient (2.6.2):
+  - BVLinearGradient (2.7.3):
     - React-Core
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.71.11-0)
@@ -264,11 +264,11 @@ PODS:
   - React-jsinspector (0.71.11-0)
   - React-logger (0.71.11-0):
     - glog
-  - react-native-config (1.5.0):
-    - react-native-config/App (= 1.5.0)
-  - react-native-config/App (1.5.0):
+  - react-native-config (1.5.1):
+    - react-native-config/App (= 1.5.1)
+  - react-native-config/App (1.5.1):
     - React-Core
-  - react-native-safe-area-context (4.5.1):
+  - react-native-safe-area-context (4.6.3):
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
@@ -359,15 +359,15 @@ PODS:
     - React-perflogger (= 0.71.11-0)
   - RNCMaskedView (0.2.9):
     - React-Core
-  - RNDeviceInfo (10.6.0):
+  - RNDeviceInfo (10.7.0):
     - React-Core
   - RNFastImage (8.6.3):
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
-  - RNGestureHandler (2.9.0):
+  - RNGestureHandler (2.12.0):
     - React-Core
-  - RNScreens (3.20.0):
+  - RNScreens (3.22.0):
     - React-Core
     - React-RCTImage
   - RNSVG (13.9.0):
@@ -533,7 +533,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost: 0ed1b9a58a27b2f7885dc9f279bc3b341f44512b
-  BVLinearGradient: 34a999fda29036898a09c6a6b728b0b4189e1a44
+  BVLinearGradient: fbe308a1d19a8133f69e033abc85d8008644f5e3
   DoubleConversion: 234abba95e31cc2aada0cf3b97cdb11bc5b90575
   FBLazyVector: c02eab6431122883bbcac0481bb2147bec4270e1
   FBReactNativeSpec: d30bc04cd7214271c6a2792525edac0dfffd6174
@@ -556,8 +556,8 @@ SPEC CHECKSUMS:
   React-jsiexecutor: b793f65dc6ff505e397286d2776e7a8442747bf3
   React-jsinspector: ec50c66abd5580a08cd8c83bc0b570de3dee90ad
   React-logger: 4d444d0dfbe78901a770e9d942cbcaa0d9cd1fbf
-  react-native-config: 5330c8258265c1e5fdb8c009d2cabd6badd96727
-  react-native-safe-area-context: f5549f36508b1b7497434baa0cd97d7e470920d4
+  react-native-config: 86038147314e2e6d10ea9972022aa171e6b1d4d8
+  react-native-safe-area-context: 36cc67648134e89465663b8172336a19eeda493d
   react-native-video: c26780b224543c62d5e1b2a7244a5cd1b50e8253
   React-perflogger: a411f62cb204bed2e70aed84a9b08c45fe63fc40
   React-RCTActionSheet: 9868c507bbfee9f72d0929030dad30f3b189ee73
@@ -572,10 +572,10 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: f4612823f6da38f89fcf5cc13948f1b503d7e9ab
   ReactCommon: a99294a510a3b80273737b796da02ba481ba78c0
   RNCMaskedView: 949696f25ec596bfc697fc88e6f95cf0c79669b6
-  RNDeviceInfo: 475a4c447168d0ad4c807e48ef5e0963a0f4eb1b
+  RNDeviceInfo: 25d818c85db769cc0e7083d39efaa01a6f450df3
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
-  RNGestureHandler: 071d7a9ad81e8b83fe7663b303d132406a7d8f39
-  RNScreens: 218801c16a2782546d30bd2026bb625c0302d70f
+  RNGestureHandler: dec4645026e7401a0899f2846d864403478ff6a5
+  RNScreens: 68fd1060f57dd1023880bf4c05d74784b5392789
   RNSVG: 53c661b76829783cdaf9b7a57258f3d3b4c28315
   RNVectorIcons: fcc2f6cb32f5735b586e66d14103a74ce6ad61f8
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
